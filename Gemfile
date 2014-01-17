@@ -12,6 +12,15 @@ end
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+
+	#added these lines from 
+	#http://stackoverflow.com/questions/8798306/is-growl-notify-only-for-macs-is-there-a-windows-alternative
+
+  gem "ZenTest", "~> 4.6.2"
+  gem "autotest-growl", "~> 0.2.16"
+  gem "autotest-rails-pure", "~> 4.1.2"
+
+
 end
 
 gem 'sass-rails', '4.0.1'
